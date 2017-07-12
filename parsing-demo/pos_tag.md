@@ -29,8 +29,9 @@ def get_WSJ(logger=None, START=None, UNK=None, threshold=5, train=False, dev=Fal
     '''
     input:
         logger - logger
-        START - start lable for sent
-        train - training set or not
+        START - start label for sent
+        UNK - unknown label for sent
+        train - training set or not
         dev - development set or not
         test - test set or not
         threshold - threshold of low frequency words which will be replaced with UNK
