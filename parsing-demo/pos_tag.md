@@ -11,9 +11,9 @@ Some demo codes to process the Wall Street Journal corpus of Penn Treebank to ge
 ```python
 '''
 Read the Penn Treebank 2.0 pos tag data set (WSJ part)
-    - 0-18 train
-    - 19-21 development
-    - 22-24 test
+    - 2-21 train
+    - 22 development
+    - 23 test
 '''
 import os
 from nltk.corpus import ptb
@@ -21,9 +21,9 @@ from nltk.corpus import ptb
 dir = 'YOUR_PATH/nltk_data/corpora/ptb/WSJ' 
 
 # standard spliting of the WSJ corpus
-train_set = range(19)
-dev_set = range(19,22)
-test_set = range(22,25)
+train_set = range(2,22)
+dev_set = [22]
+test_set = [23]
 
 def get_WSJ(logger=None, START=None, UNK=None, threshold=5, train=False, dev=False, test=False):
     '''
