@@ -4,7 +4,7 @@
 * constituency parsing
 * dependency parsing: CoNLL Dependency, Stanford Dependency, Universal Dependency
 2. Stanford Parsing tools
-* Stanford Parser: download the [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.shtml#Download), unzip it and unzip ```stanford-parser-X.X.X-models.jar``` in the directory; download the neural dependency parser [model file](https://nlp.stanford.edu/software/stanford-srparser-2014-10-23-models.jar), put it in the directory of Stanford Parser and unzip it.
+* Stanford Parser: download the [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.shtml#Download), unzip it and unzip ```stanford-parser-X.X.X-models.jar``` in the directory (put /edu and /META-INF in the root directory of Stanford Parser); download the neural dependency parser [model file](https://nlp.stanford.edu/software/stanford-srparser-2014-10-23-models.jar), put it in the directory of Stanford Parser and unzip it (put /edu and /META-INF in the root directory of Stanford Parser and merge with the existing folders).
 * Stanford CoreNLP: download the [CoreNLP](https://stanfordnlp.github.io/CoreNLP/download.html) and unzip it.
 ### Demo code with NLTK
 ```python
